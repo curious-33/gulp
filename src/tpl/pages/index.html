@@ -1,0 +1,16 @@
+{% set title = "Page | Title" %}
+
+{% extends "main.tpl" %}
+
+{% block content %}
+    <section>
+        {% include "test/test.html" %}
+        {% include "example/example.html" %}
+    </section>
+{% endblock%}
+
+{% block scripts %}
+<script src="scripts/main.js">
+
+</script>
+{% endblock%}

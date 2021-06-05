@@ -1,0 +1,40 @@
+{
+  "name": "gulp-4",
+  "version": "1.0.0",
+  "description": "gulp-4 sass nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp4",
+    "sass",
+    "nunjucks"
+  ],
+  "author": "Curious",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-beautify": "^3.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-prettify": "^0.5.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-useref": "^4.0.1",
+    "gulp4-run-sequence": "^1.0.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
