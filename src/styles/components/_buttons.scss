@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+.btn{
+    color: var(--color-secondary-500);
+    background-color: var(--color-primary-500);
+}

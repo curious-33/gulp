@@ -1,0 +1,14 @@
+.test .box {
+    width: 200px;
+    height: 180px;
+    background-color: #000;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .test .test-img img{
+    clip-path: inset(10px 20px 10px 30px);
+  }

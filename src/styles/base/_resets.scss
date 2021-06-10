@@ -4,8 +4,8 @@
 }
 
 *,
-::after,
-::before {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -16,8 +16,6 @@ html {
 
 body {
   background-color: #fff;
-  color: #212529;
-  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -33,11 +31,11 @@ h1 {
 hr {
   box-sizing: content-box;
   height: 0;
-  overflow: visible; 
+  overflow: visible;
 }
 
 pre {
-  font-family: monospace, monospace; 
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -46,8 +44,8 @@ a {
 }
 
 abbr[title] {
-  border-bottom: none; 
-  text-decoration: underline; 
+  border-bottom: none;
+  text-decoration: underline;
   text-decoration: underline dotted;
 }
 
@@ -94,12 +92,12 @@ select,
 textarea {
   font-family: inherit;
   font-size: 100%;
-  line-height: 1.15; 
-  margin: 0; 
+  line-height: 1.15;
+  margin: 0;
 }
 
 button,
-input { 
+input {
   overflow: visible;
 }
 
@@ -135,12 +133,12 @@ fieldset {
 }
 
 legend {
-  box-sizing: border-box; 
-  color: inherit; 
-  display: table; 
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
   max-width: 100%;
-  padding: 0; 
-  white-space: normal; 
+  padding: 0;
+  white-space: normal;
 }
 
 progress {
@@ -153,7 +151,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -164,7 +162,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield;
-  outline-offset: -2px; 
+  outline-offset: -2px;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -173,7 +171,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  font: inherit; 
+  font: inherit;
 }
 
 details {
@@ -197,7 +195,7 @@ ul {
   margin: 0;
 }
 
-li{
+li {
   list-style: none;
 }
 

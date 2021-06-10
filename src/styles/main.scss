@@ -1,24 +1,8 @@
-@import 'resets';
+@use 'abstracts';
+@use 'base';
+@use 'utilities';
+@use 'components';
+@use 'layouts';
+@use 'pages';
 
 
-body {
-  font-size: 16px;
-  color: #000000;
-  font-family: var(--main-font);
-  line-height: 20px;
-}
-
-.test .box {
-  width: 200px;
-  height: 180px;
-  background-color: #000;
-  color: yellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.test .test-img img{
-  clip-path: inset(10px 20px 10px 30px);
-}
