@@ -13,8 +13,7 @@
     <link rel="icon" type="image/ico" href="images/favicon.png" sizes="32x32">
 
     <!-- build:css styles/vendor.css -->
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles/vendors/bootstrap-grid.min.css">
     <!-- endbuild -->
     <!-- build:css styles/fonts.css -->
     <link href="styles/fonts.css" rel="stylesheet">
