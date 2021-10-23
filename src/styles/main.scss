@@ -17,6 +17,8 @@
     background: #27ae60;
     margin-left: 10px;
     border-radius: 10%;
+    animation-name: fade-out;
+    animation-duration: 2s;
 
     &:nth-child(1) {
       transition: transform 2s ease-in 1s;
@@ -25,6 +27,26 @@
         transform: scale(1.2) rotate(360deg);
       }
     }
+  }
+}
+
+@keyframes fade-out{
+  0%{
+    margin-left: -200px;
+    opacity: 0;
+  }
+
+  25%{
+    opacity: 0.25;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    margin-left: 10px;
+    opacity: 1;
   }
 }
 
