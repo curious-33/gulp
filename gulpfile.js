@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const sass = require("gulp-sass");
+sass.compiler = require('sass');
 const runSequence = require('gulp4-run-sequence');
 const babel = require('gulp-babel');
 const njRender = require("gulp-nunjucks-render");

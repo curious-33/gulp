@@ -15,23 +15,23 @@
     <!-- build:css styles/vendor.css -->
     <link rel="stylesheet" href="styles/vendors/bootstrap-grid.min.css">
     <!-- endbuild -->
+
     <!-- build:css styles/fonts.css -->
     <link href="styles/fonts.css" rel="stylesheet">
     <!-- endbuild -->
+
     <!-- build:css styles/main.css -->
     <link href="styles/main.css" rel="stylesheet">
     <!-- endbuild -->
-
-
 </head>
 <body>
 
 <div class="page-wrapper">
-    {% include('header.html') %}
+     <!-- {% include('header.html') %} -->
     <div class="page-content">
         {% block content %} {% endblock %}
     </div>
-    {% include('footer.html') %}
+    <!-- {% include('footer.html') %} -->
 </div>
 
 {% block scripts %} {% endblock %}
